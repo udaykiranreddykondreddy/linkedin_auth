@@ -1,1 +1,1 @@
-web: python linkedinauth.wsgi --log-file-
+web: gunicorn linkedinauth.wsgi --log-file -
